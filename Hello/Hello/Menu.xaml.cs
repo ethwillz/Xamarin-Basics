@@ -25,5 +25,10 @@ namespace Hello
         {
             Navigation.PushModalAsync(new TextToSpeech());
         }
+
+        public void youtube(Object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new Youtube());
+        }
     }
 }

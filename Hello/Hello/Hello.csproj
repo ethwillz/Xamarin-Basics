@@ -54,6 +54,9 @@
     <Compile Include="TextToSpeech.xaml.cs">
       <DependentUpon>TextToSpeech.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Youtube.xaml.cs">
+      <DependentUpon>Youtube.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -98,6 +101,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="TextToSpeech.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Youtube.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
